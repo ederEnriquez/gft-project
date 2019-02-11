@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="42px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>42px_picture-ok</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M20.0146486,0 C8.97782205,0 0,8.9731345 0,20.0005859 C0,31.0292093 8.97782205,40 20.0146486,40 C31.0503032,40 40.0292972,31.0292093 40.0292972,20.0005859 C40.0292972,8.9731345 31.0503032,0 20.0146486,0 M18.3974453,30.0342777 C17.6111095,29.3686462 10.1942402,23.4447602 8.2735183,21.8193537 C8.01218762,21.5990391 7.95007764,21.0599713 8.15047022,20.8162189 C8.35203469,20.5736384 10.8833094,17.4552486 10.8833094,17.4552486 C10.8833094,17.4552486 11.3508921,16.9150089 11.9626168,17.3439194 C13.4216154,18.3681481 16.7251633,21.1877069 17.3568101,21.7302903 C18.1572086,22.4170158 18.627135,22.2259983 18.9915917,21.7701345 C19.3056573,21.3775525 26.1108019,12.5731697 28.0104298,10.1157238 C28.3198078,9.71611051 28.6784051,9.6129845 29.0241116,9.8895497 C29.3698181,10.1672868 31.8917177,12.09504 32.4952392,12.5719978 C33.0987607,13.0477837 32.5303958,13.7473999 32.5303958,13.7473999 L20.0017578,29.9311517 C20.0017578,29.9311517 19.3033135,30.8006914 18.3974453,30.0342777" id="path-1"></path>
+        <filter x="-2.5%" y="-2.5%" width="110.0%" height="110.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="1" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.6   0 0 0 0 0.6   0 0 0 0 0.6  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="icon-sprite" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-84.000000, -135.000000)">
+        <g id="42px_picture-ok" transform="translate(84.000000, 135.000000)">
+            <rect id="Rectangle-Copy-9" x="0" y="0" width="42" height="42"></rect>
+            <g id="Fill-1">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#ABC111" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>

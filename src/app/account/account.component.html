@@ -1,0 +1,60 @@
+<div class="row">
+  <div class="col-12">
+    <h2 class="title">Cuentas</h2>
+    <button
+      class="subscribe btn btn-light btn-sm btn-block"
+      type="button"
+      (click)="showNewAccount(true)"
+    >
+      Nueva cuenta
+    </button>
+  </div>
+</div>
+
+<form #frmAccount="ngForm" *ngIf="newAccount">
+  <fieldset class="clearfix">
+    <div class="form-group">
+      <label for="accountType">Tipo de cuenta</label>
+      <select
+        #selectType
+        name="type"
+        class="form-control"
+        id="accountType"
+        required
+        [(ngModel)]="accountModel.type"
+        (change)="filterName()"
+      >
+        <option value="null" disabled>Selecciona una opción</option>
+        <option *ngFor="let ct of cardTypes" [value]="ct.type">{{
+          ct.name
+        }}</option>
+      </select>
+    </div>
+    <div>
+      <button
+        class="btn btn-secondary btn-block"
+        [disabled]="!frmAccount.valid"
+        (click)="createAccount()"
+      >
+        Registrar
+      </button>
+      <button class="btn btn-danger btn-block" (click)="showNewAccount(false)">
+        Cancelar
+      </button>
+    </div>
+  </fieldset>
+  <div class="clearfix"></div>
+</form>
+
+<div class="col-12" *ngIf="!newAccount">
+  <div *ngIf="accounts.length == 0">
+    Por el momento no tenemos ninguna cuenta registrada, solicita una nueva
+    cuenta
+  </div>
+  <div *ngIf="accounts.length > 0">
+    Por el momento no tenemos ninguna cuenta registrada, solicita una nueva
+    cuenta
+  </div>
+
+  <div class="clearfix"></div>
+</div>
